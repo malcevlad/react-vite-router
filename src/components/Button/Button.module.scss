@@ -1,0 +1,14 @@
+@use '@styles/variables' as *;
+
+.button {
+  border: none;
+  border-radius: 10px;
+  background-color: $accent-color;
+  color: $color-secondary;
+  padding: 16px 32px;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
