@@ -1,0 +1,9 @@
+@use '@styles/variables' as *;
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: $footer-bg-color;
+  color: $color-secondary;
+  padding: 30px;
+}
