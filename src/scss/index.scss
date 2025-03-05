@@ -1,0 +1,57 @@
+@import './_variables';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+html, body, #root {
+  height: 100vh;
+}
+
+body {
+  font-family: $font-family;
+  font-size: $font-size;
+  background-color: $bg-color;
+  color: $color-main;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.menu {
+  display: flex;
+  gap: 16px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+
+
+
+
+
+
+
+
